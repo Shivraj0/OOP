@@ -14,7 +14,7 @@ class Number {
 
     Number operator+ (Number numObj)  {     // operator overloading function.
         Number result;
-        result.num = num + numObj.num;
+        result.num = num + numObj.num;      // num treated as obj1 and numObj treated as obj2.
         return result;
     }
 };
