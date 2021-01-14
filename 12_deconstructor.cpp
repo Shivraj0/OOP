@@ -14,5 +14,5 @@ class Person {
 
 int main() {
     Person personObj;                   // Contructor called.
-    cout<<"After Constructor.!";        // Deconstructor after termination of program.
+    cout<<"After Constructor.!";        // Deconstructor called after termination of program.
 }
