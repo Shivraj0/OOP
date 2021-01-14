@@ -8,10 +8,10 @@ class Person {
             cout<<"Echo --> inside.";
         }
 
-        void echoOutside();                   // Declaring method inside class.
+        void echoOutside();                   // Declaring method inside class. -- Prototype.
 };
 
-void Person::echoOutside() {                  // Defining method outside class.
+void Person::echoOutside() {                  // Defining method outside class. -- Definition.
     cout<<"Echo --> outside.";
 }
 
