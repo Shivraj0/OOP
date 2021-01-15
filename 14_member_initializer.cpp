@@ -11,7 +11,7 @@ class Person {
         const int constVar;
 };
 
-Person::Person(int a, int b) : constVar(a) {    // Const variable `cosntVar` initialized with value a.
+Person::Person(int a, int b) : constVar(a) {    // Const variable `constVar` initialized with value a.
     cout<<"Constant variable: "<<constVar;
 }
 
