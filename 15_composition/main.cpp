@@ -1,12 +1,12 @@
 #include <iostream>
-#include "Birthday.cpp"
-#include "People.cpp"
+#include "Age.cpp"
+#include "Person.cpp"
 
 using namespace std;
 
 int main() {
-    Birthday birthObj(1,2,1998);
+    Age ageObj(1);
 
-    People peopleObj("Shivraj", birthObj);
-    peopleObj.printBirthdayInfo();
+    Person personObj("Shivraj", ageObj);
+    personObj.printPersonAge();
 }
