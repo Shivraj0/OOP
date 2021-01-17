@@ -8,5 +8,5 @@ Person::Person(string a, Age ageObj)
 : name(a), age(ageObj) {}
 
 void Person::printPersonAge() {
-    age.printAge();
+    age.printAge();                     // Method accessible from another class.
 }
