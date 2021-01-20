@@ -2,9 +2,9 @@
 
 using namespace std;
 
-template <class generic>                // Create generic template.
+template <class T>                // Create generic class. Generic class is basically for type of data instead of value.
 
-generic add(generic a, generic b) {     // Return type and funtion parameter are independent of type.
+T add(T a, T b) {     // Return type and funtion parameters are independent of type but should be of same type i.e int, int.
     return a+b;
 }
 
